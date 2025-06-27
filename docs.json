@@ -15,11 +15,7 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["index", "quickstart", "development"]
           },
           {
             "group": "Essentials",
@@ -39,9 +35,7 @@
         "groups": [
           {
             "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "pages": ["api-reference/introduction"]
           },
           {
             "group": "Endpoint Examples",
@@ -51,6 +45,33 @@
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "AI Agent System",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": ["Introduction/Introduction"]
+          },
+          {
+            "group": "System Architecture",
+            "pages": ["System-Architecture/System-Architecture"]
+          },
+          {
+            "group": "Agent Specifications",
+            "pages": [
+              "Agent-Specifications/Agent-Specifications",
+              "Agent-Specifications/Central-AI-Director/Central-AI-Director",
+              "Agent-Specifications/Central-AI-Director/Character-Design-Animation-Agent/Character-Design-Animation-Agent",
+              "Agent-Specifications/Continuity-Management-Agent/Continuity-Management-Agent",
+              "Agent-Specifications/Quality-Assurance-Agent/Quality-Assurance-Agent"
+            ]
+          },
+          {
+            "group": "Inter-Agent Communication",
+            "pages": ["Inter-Agent-Communication/Inter-Agent-Communication"]
           }
         ]
       }
